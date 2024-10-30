@@ -1,12 +1,10 @@
 import "./App.css";
-import { Button } from "@chakra-ui/react";
+import Form from "./components/ui/components/Form";
 
 function App() {
   return (
     <div>
-      <Button variant="outline" colorPalette={"green"} size={"2xl"}>
-        Solid
-      </Button>
+      <Form />
     </div>
   );
 }
